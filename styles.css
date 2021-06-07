@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    /* background-image: url("./diwali.jpg"); */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    height: 50%;
+    width: 50%;
+    align-self: center;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countdown-container{
+    display: flex;
+    font-size: 40px;
+    flex-wrap: wrap;
+    margin-top: -250px;
+    align-items: center;
+}
+
+.big-text{
+    font-size: 7rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: azure;
+}
+
+.time-text{
+    margin-left: 60px;
+    font-size: large;
+    color: azure;
+}
+.header-text{
+    font-size: 80;
+    font-weight: lighter;
+}
